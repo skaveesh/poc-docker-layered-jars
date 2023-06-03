@@ -368,12 +368,12 @@ ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher"]
 ## Analysis
 ### Docker builds upload time analysis demo
 #### Subsequent code generation with Fat JAR approach
-
-video 1
+https://github.com/skaveesh/poc-docker-layered-jars/assets/14146760/259d83c2-f843-4d6f-9bc6-c1015ab19f74
 
 #### Subsequent code generation with Layered JAR approach
+https://github.com/skaveesh/poc-docker-layered-jars/assets/14146760/2ff006af-384c-49ae-b7e4-ca3c46be8d5a
 
-video 2
+
 
 ### Test analysis – Fat vs Layered (build size, upload size, upload time)
 Upload time is calculated by wrapping the command that is pushing the Docker image to the Docker Hub with time calculating command as below.
